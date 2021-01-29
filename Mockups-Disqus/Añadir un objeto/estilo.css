@@ -17,7 +17,7 @@ body
 }
 nav
 {
-    margin-bottom: 30px;
+    margin-bottom: 6em;
     background-color: white;
     height: 75px;
     width: 100%;
@@ -43,27 +43,27 @@ nav a:hover
 }
 button
 {
-    background-color: transparent;
+    background-color: #2e9fff;
     border: 0;
-    outline: none !important;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin: 8px;
 }
 footer
 {
     margin-top: 20px;
     width: 100%;
 }
-main .col
-{
-    border: darkblue 1px solid;
-    text-align: center;
-}
+
 .blanco
 {
-    background-color: white;
-    color:#2e9fff;
+    padding-bottom:4px ;
+    color: darkblue;
     font-weight: bold;
     font-size: 1.3em;
 }
+
 #pie
 {
     margin: 0 auto;
@@ -74,4 +74,11 @@ main .col
 {
     width: 100%;
 
+}
+.situar{
+    background: linear-gradient(to bottom, #2e9fff, white);
+    width: 500px;
+    text-align: center;
+    border: 2px solid darkblue;
+    padding-top: 10px;
 }
