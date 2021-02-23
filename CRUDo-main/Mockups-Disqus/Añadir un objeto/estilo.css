@@ -114,3 +114,8 @@ footer
     margin-left: 10px;
     vertical-align: baseline;
 }
+.imagen
+{
+    width: 200px;
+    height: 200px;
+}
